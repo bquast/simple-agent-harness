@@ -13,7 +13,7 @@ LOG="$AGENT_DIR/log.txt"
 PROMPT=$(cat "$SOUL" "$HEARTBEAT" "$MEMORY")
 
 # Call Ollama
-RESPONSE=$(ollama run llama3.2 "$PROMPT")
+RESPONSE=$(ollama run gemma4:e2b "$PROMPT")
 
 # Log it
 echo "=== $(date) ===" >> "$LOG"
