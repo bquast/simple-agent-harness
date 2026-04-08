@@ -6,9 +6,9 @@ A minimal autonomous LLM agent. No framework, no dependencies beyond Ollama.
 
 | file | purpose |
 |---|---|
-| soul.txt | identity and behavioral rules |
-| heartbeat.txt | prompt sent to the LLM every 30 minutes |
-| memory.txt | persistent memory, rewritten by the LLM when needed |
+| soul.md | identity and behavioral rules |
+| heartbeat.md | prompt sent to the LLM every 30 minutes |
+| memory.md | persistent memory, rewritten by the LLM when needed |
 | log.txt | append-only record of every response and action |
 | agent.sh | the script that ties it all together |
 | cron.txt | the cron schedule |
