@@ -4,9 +4,9 @@
 
 AGENT_DIR="$(dirname "$0")"
 
-SOUL="$AGENT_DIR/soul.txt"
-HEARTBEAT="$AGENT_DIR/heartbeat.txt"
-MEMORY="$AGENT_DIR/memory.txt"
+SOUL="$AGENT_DIR/soul.md"
+HEARTBEAT="$AGENT_DIR/heartbeat.md"
+MEMORY="$AGENT_DIR/memory.md"
 LOG="$AGENT_DIR/log.txt"
 
 # Build prompt
