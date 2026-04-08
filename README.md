@@ -25,7 +25,7 @@ A minimal autonomous LLM agent. No framework, no dependencies beyond Ollama.
 The LLM can take two actions by wrapping content in fenced blocks:
 
 - `​```sh` — shell command, executed immediately, output logged
-- `​```memory` — replaces the contents of memory.txt
+- `​```memory` — replaces the contents of memory.md
 
 Everything else is logged to log.txt and ignored.
 
