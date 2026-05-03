@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# agent.sh
-
 AGENT_DIR="$(dirname "$0")"
 
 SOUL="$AGENT_DIR/soul.md"
